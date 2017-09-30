@@ -1,0 +1,43 @@
+/*  
+Theme Name: iBlogPro
+
+Theme URI: http://www.pagelines.com/themes/iblogpro
+
+Description:  iBlogPro is a professional WordPress theme built on the PageLines CMS framework. Designed and developed by <a href="http://www.pagelines.com">PageLines</a>.
+
+Version: 4.2.6
+
+Author: PageLines
+
+Author URI: http://www.pagelines.com
+
+***** IMPORTANT ***** 
+Don't pirate this theme. 
+Hackers typically inject spam files and scripts that can get your site 'black-listed' from search engines and create security risks on your server.
+ 
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/* Get Reset CSS */
+@import url('/wp-content/themes/iBlogPro4-master/core/css/reset.css');
+
+/* Get Core CSS */
+@import url('/wp-content/themes/iBlogPro4-master/core/css/wp_core.css');
+
+/* Get Theme CSS */
+@import url('/wp-content/themes/iBlogPro4-master/css/theme.css');
+
+/* For WP.org theme repository checklist */
+.alignright {}
+.alignleft {}
+.alignnone {}
+.aligncenter {}
+.avatar {}
+.wp-caption {}
+.gallery {}
+.wp-smiley {}
+
+
+

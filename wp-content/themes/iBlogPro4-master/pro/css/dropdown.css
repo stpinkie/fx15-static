@@ -1,0 +1,110 @@
+
+
+/*  LEVEL ONE */
+#nav ul.dropdown {z-index:1000;}
+#nav ul ul li{background: none;}
+
+/* Main Menu Element On Hover */
+ #nav ul.dropdown li.menuhover a{
+	color: #fff;
+	background: #444;
+	margin-left: -1px;
+	margin-right: 1px;
+	text-shadow: none;
+
+	border: 1px solid transparent;
+	border-bottom: none;
+	padding: 8px 20px 9px 20px;
+
+}
+
+/* Default Padding If Not Main */
+#nav ul.dropdown li.menuhover ul li a, #nav ul.dropdown li ul li a{
+	padding: 10px 13px;
+	margin:0;
+	color: #fff;
+	background: none;
+	text-shadow: none;
+	border: none;
+}
+
+
+#nav ul.dropdown li.menuhover ul a:hover, #nav ul.dropdown li.current_page_item ul a:hover{
+	background: #000;
+	margin:0;
+	text-shadow: none;
+	padding: 10px 13px;
+}
+
+/* STYLING FIRST DROP DOWN */
+
+	#nav ul.dropdown ul{
+		width: 220px;
+		display:none;
+		position: absolute; 
+		top: 100%; 
+		left: 0; 
+		z-index: 200;
+		zoom: 1;
+		border: 1px solid #222;
+		border-top: none;
+
+	    background: #444 url(/wp-content/themes/iBlogPro4-master/images/bg_dropdown.png) repeat-x left bottom;
+		text-shadow: none;
+		padding-bottom: 5px;
+		-moz-border-radius-bottomleft: 5px;
+		-moz-border-radius-bottomright: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-khtml-border-bottom-left-radius: 5px;
+		-khtml-border-bottom-right-radius: 5px;
+	}
+	#nav ul.dropdown ul li{
+		z-index:300;
+		position:relative;
+		font-weight: normal; 
+		color: #fff;
+		border:none; 
+		float: none; 
+		margin: 0;
+		padding:0;
+	}
+									  
+/* Default Link Styling */
+#nav ul.dropdown ul li a{ 
+	text-shadow: none;
+	border:none;
+	margin:0;
+	background: none;
+} 
+
+
+/* Correct back sub pages */
+#nav ul.dropdown li.menuhover ul li.current_page_item ul li a,
+#nav ul.dropdown ul li.current_page_item ul li a, 
+#nav ul.dropdown li.menuhover ul li.current_page_ancestor ul li a,
+#nav ul.dropdown ul li.current_page_ancestor ul li a{
+	background:#444;
+}
+
+#nav ul.dropdown ul li a:hover,
+#nav ul.dropdown li.menuhover ul li a:hover,
+#nav ul.dropdown ul li.current_page_item a,
+#nav ul.dropdown li.menuhover ul li.current_page_item a,
+#nav ul.dropdown ul li.current_page_ancestor a,
+#nav ul.dropdown li.menuhover ul li.current_page_ancestor a,
+#nav ul.dropdown li.menuhover ul li.current_page_item ul li a:hover,
+#nav ul.dropdown li.menuhover ul li.current_page_ancestor ul li a:hover,
+#nav ul.dropdown li.menuhover ul li ul li.current_page_item a{
+	color: #fff;
+	border:none;
+	text-shadow: none;
+	background: #000;
+
+}
+
+/*  LEVEL THREE */
+#nav ul.dropdown ul ul 			{ left: 100%; top: 0; }
+#nav ul.dropdown li:hover > ul 	{ display: block; }

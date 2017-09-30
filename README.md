@@ -1,2 +1,1 @@
-# fx15-static
-Static pages for The Friendship Express 2015
+FX15 Static
